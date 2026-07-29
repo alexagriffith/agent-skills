@@ -67,7 +67,7 @@ Layout geometry (bands, gaps, box sizing from labels) is formatting — keep it.
 Full text: `references/principles.md`. Short list:
 
 1. Content spine before geometry (claim + stakes + show plan)
-2. Headers name nouns, not vibes (no bare both / shapes / it / this)
+2. Titles and headers: concise but specific — name the thing, do not be vague
 3. Cold-viewer test (mute jargon; domain still obvious)
 4. Labels are not the diagram (mechanism first)
 5. Highlight matches the box (exact segment geometry)

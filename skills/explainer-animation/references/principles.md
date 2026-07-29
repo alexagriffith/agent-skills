@@ -19,16 +19,9 @@ with no consequences. Clean bands and short labels cannot rescue a missing argum
 restated headers. It does **not** mean delete the stakes. Thin source → ask, or pull
 stakes from cited docs/lexicon. Do not ship geometry with an empty lesson.
 
-## 2. Headers name nouns, not vibes
+## 2. Titles and headers: concise but specific
 
-Headers are titles: concise **and** unambiguous.
-
-- Name the concrete things on screen (prompt, reply, first token, KV cache).
-- Ban bare referents used as the point: “both”, “shapes”, “it”, “this”, “they”,
-  “the split”, “what changes”.
-- **Fail:** “Latency splits across both” / “Same model, two shapes”
-- **Pass:** “Input length sets first token” / “Long prompt or long reply”
-- If the animation shows the verb, the header supplies the nouns. Specific beats clever.
+Name the thing. Do not be vague. That is the whole rule.
 
 ## 3. Cold-viewer test
 
@@ -83,7 +76,7 @@ Any shade, fill, underline, progress clip, or callout is owned by **one named se
 After the draft exists, answer yes to all three or rewrite:
 
 1. Can a cold viewer state the **claim** after watching?
-2. Did each scene advance a **stake**, not only rearrange shapes?
+2. Did each scene advance a **stake**, not only rearrange geometry?
 3. Would the piece still make sense with jargon labels covered?
 
 Geometry-only passes of the form checklist are still **fails**.

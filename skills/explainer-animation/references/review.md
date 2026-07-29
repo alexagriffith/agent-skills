@@ -7,7 +7,7 @@ Hand it this file + `references/principles.md` + the prompt. Ask for pass/fail.
 
 - [ ] Content spine: claim + 2–4 stakes + each scene maps to a stake (not metaphor-only)
 - [ ] Teaching test: cold viewer can state the claim; each scene advances a stake
-- [ ] Headers name nouns (no bare “both / shapes / it / this”)
+- [ ] Titles and headers: concise but specific (not vague)
 - [ ] Cold-viewer: mute jargon — domain/mechanism still obvious
 - [ ] Labels are not the diagram (not “wide vs narrow” + stickers)
 - [ ] Highlight matches box (exact segment geometry; asymmetric = per column)

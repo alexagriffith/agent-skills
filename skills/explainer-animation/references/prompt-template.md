@@ -82,14 +82,7 @@ Pacing:
 - CONNECTORS ROUTE AROUND, NOT THROUGH. A loop or return arrow travels the outside of the
   composition, back around the diagram, never straight down or across the middle of the
   frame. An arrow cutting through the center of a composition is a defect.
-- Headers name the concrete thing on screen, not the motion happening underneath them.
-  "A vLLM Pod Serving Traffic" describes the animation; "Inside One vLLM Pod" names what
-  the viewer is looking at. "How They Connect" names nothing; "Choosing A Pod" names the
-  event. If the animation already shows the verb, the header should supply the noun.
-- Headers name the concrete thing on screen. "The File Comes Back" is vague and atmospheric;
-  "One Request, Four Turns" names what the viewer is looking at. No mood, no mystery.
-- Ban vague header referents: “both”, “shapes”, “it”, “this”, “they”, “the split”.
-  “Latency splits across both” fails. “Input length sets first token” passes.
+- Titles and headers: concise but specific. Name the thing. Do not be vague.
 - Boxes carry their contents. Empty labelled rectangles are not diagrams.
 - DO NOT BOX OR LABEL TRAFFIC. A request, a token, a message, a job: draw it as a small
   solid filled circle, roughly 28px, no label, no outline flourish. The viewer already
