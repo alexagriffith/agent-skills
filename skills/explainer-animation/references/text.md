@@ -55,3 +55,8 @@ model, reply coming out; work lighting up on the long side), then short labels.
 **Labels are not the diagram.** Prefer fewer words *after* the picture carries the idea.
 Short labels on an empty metaphor still fail. If the only difference between two
 columns is which word is printed on which rectangle, rewrite the visual.
+
+**Fight filler, not teaching.** “Do not invent captions” blocks marketing glue and
+restated headers. It does not mean delete the stakes. If the claim has consequences
+(latency, memory, cost, failure), those stakes belong in the spine and must appear as
+shown beats. A tidy piece that never says why the claim matters has failed.

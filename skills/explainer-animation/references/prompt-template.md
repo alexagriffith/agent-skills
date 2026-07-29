@@ -72,7 +72,13 @@ Text rules:
 - Expand acronyms on first on-screen use. No question marks or arrow glyphs in text.
 - Do not name colors anywhere in on-screen text or in this prompt body.
 
-CONTENT, title "<Title>". One through-line.
+CONTENT SPINE (required while writing; omit from the Claude Design paste only if every
+scene already proves a stake):
+- Claim: <one sentence>
+- Stakes: <2–4 consequences>
+- Show plan: scene 1 → …; scene 2 → …; scene 3 → …
+
+CONTENT, title "<Title>". One through-line that matches the claim.
 1) Static title card.
 2) <Beat> ...
 N) Closing card with beat review.

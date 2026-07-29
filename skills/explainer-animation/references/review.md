@@ -4,6 +4,8 @@ Load only for a pre-paste review. Prefer a **fresh agent**, not the writer.
 Hand it this file + the prompt. Ask for pass/fail.
 
 - [ ] Zero color names, hex, fonts, or named design-system/template strings in the paste block
+- [ ] **Content spine present:** claim + 2–4 stakes + each scene maps to a stake (not metaphor-only)
+- [ ] Teaching test: a cold viewer could state the claim after watching; geometry-only fails
 - [ ] No invented captions; every text run is listed; empty bands stated when unused
 - [ ] No header + restating caption (line under header only if it adds a condition/number)
 - [ ] Technical claims and ownership verified against source docs

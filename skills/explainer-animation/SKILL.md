@@ -42,15 +42,26 @@ Layout geometry (bands, gaps, box sizing from labels) is formatting — keep it.
 
 1. **Source** — read the doc, path, or paste. If verbal only, ask: audience, main point,
    rough scene count, source material?
-2. **Scenes** — prefer short (fewer scenes → fewer builder errors). Longer step-by-step
+2. **Content spine (required before any scene).** Write three lines, then check them:
+   - **Claim** — the one sentence a viewer should leave with
+   - **Stakes** — 2–4 concrete consequences if the claim is true (latency, memory, cost,
+     routing, failure mode — whatever the source actually implies)
+   - **Show plan** — which stake each scene will *demonstrate* (not restate)
+   Fail this step if the spine is only a visual metaphor (“two bar lengths”) with no
+   consequences. Short labels and clean bands cannot rescue a missing argument.
+   “Fight invented words” forbids filler. It does **not** forbid teaching. If the source
+   is thin, ask for the stakes or pull them from the cited docs — do not ship geometry
+   with an empty lesson.
+3. **Scenes** — prefer short (fewer scenes → fewer builder errors). Longer step-by-step
    or decision maps are fine when total duration reconciles.
-   Each content scene: header · visual · optional sentence from source wording.
+   Each content scene advances one spine item: header · visual that proves it · optional
+   sentence from source / spine wording.
    A line under the header is optional — omit unless it adds a condition or number the
    header does not already carry.
    Bookend with a static title card and a closing card that reviews beats
    (icon row + short labels, not a text list).
-3. **Write** — follow the load table; fill `references/prompt-template.md`.
-4. **Save** — write the prompt to a markdown file the user can keep. On request, copy
+4. **Write** — follow the load table; fill `references/prompt-template.md`.
+5. **Save** — write the prompt to a markdown file the user can keep. On request, copy
    the paste block to the clipboard (no frontmatter).
 
 ## Where it is built
@@ -64,6 +75,9 @@ Layout geometry (bands, gaps, box sizing from labels) is formatting — keep it.
 
 ## Hard principles (always on)
 
+- **Content spine before geometry.** Claim + stakes + show plan exist before scene layout.
+  A piece that only rearranges shapes around a topic name has failed, even if bands and
+  timing are perfect.
 - **Cold-viewer test.** Mute the jargon labels. A newcomer must still see *what system*
   this is (e.g. a request into a model, not two abstract bars). If they would not know
   what the piece is about, rewrite the visual — do not add more words.
