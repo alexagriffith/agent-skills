@@ -13,6 +13,6 @@ Hand it this file + the prompt. Ask for pass/fail.
 - [ ] Spatial language exact; spanning elements anchored
 - [ ] Timing lines present; scene sum + gaps = stated total
 - [ ] “Do not add extra” on every scene including bookends
-- [ ] Title card static at 0:00; closing summary reviews beats; no labeled tracker; unlabeled dots only if content scenes > 4
+- [ ] Title card static at 0:00; series id on its own line above the title and visibly smaller; standalone has title only; closing summary reviews beats; no labeled tracker; unlabeled dots only if content scenes > 4
 - [ ] Scaffold + interaction pacing (not per-box stagger); every content scene has an interaction beat
 - [ ] Second adversarial pass on the *fixed* file

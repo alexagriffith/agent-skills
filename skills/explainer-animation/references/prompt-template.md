@@ -17,10 +17,17 @@ a labeled scrubber.
 Title card contract (both bookends):
 - STATIC. Every mark drawn in frame one. Nothing animates, fades, or types in.
   Thumbnail at 0:00 shows the finished card.
-- Series piece: "Chapter <N>" centered on its own line, title centered below. No subtitle,
-  series name, tagline, or decorative marks.
-- Standalone piece: ONE text run, the title alone. Do not invent a chapter number.
-- Closing card: same framing, plus a short visual review of the beats walked through.
+- Series / numbered piece: exactly two text runs, nothing else.
+  1) Series identifier on its OWN centered line above the title
+     ("Chapter <N>" or "Episode <N>" — use the series' own word; do not invent one).
+  2) Title centered on the line directly below it.
+  The identifier is visibly smaller than the title (design-system secondary / caption
+  scale). Never the same size as the title, never larger. At least 24px clear between
+  the identifier's bottom edge and the title's top edge.
+  No subtitle, series name, tagline, comma-joined id ("Episode A1", "A-1"), or decoration.
+- Standalone piece: ONE text run, the title alone. Do not invent a chapter or episode number.
+- Closing card: same framing (identifier + title if series), plus a short visual review
+  of the beats walked through.
 
 Emphasis and focus:
 - Header scale-pop ONLY when something else shares the frame; otherwise draw in place.
