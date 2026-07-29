@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>BEFORE — style baked into the prompt (pre-skill)</title>
+<style>
+  /* Deliberate "AI default" look: purple gradient, restating caption,
+     labeled tracker, playback chrome, invented filler. */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    width: 1920px; height: 1080px; overflow: hidden;
+    font-family: Inter, system-ui, sans-serif;
+    background: linear-gradient(135deg, #f5f3ff 0%, #ffffff 45%, #ede9fe 100%);
+    color: #1e1b4b;
+  }
+  .frame { width: 1920px; height: 1080px; position: relative; padding: 48px 80px 120px; }
+  .eyebrow {
+    font-size: 18px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+    color: #7c3aed; margin-bottom: 12px;
+  }
+  h1 { font-size: 48px; font-weight: 700; line-height: 1.15; }
+  .restatement {
+    margin-top: 16px; font-size: 28px; color: #6d28d9; font-weight: 400;
+  }
+  .diagram {
+    margin-top: 56px; height: 520px; display: flex; align-items: center; justify-content: center;
+    gap: 80px; position: relative;
+  }
+  .box {
+    border: 2px solid #a78bfa; border-radius: 24px; background: #fff;
+    box-shadow: 0 20px 50px rgba(124, 58, 237, 0.18);
+    display: flex; align-items: center; justify-content: center; text-align: center;
+    padding: 32px; font-weight: 600;
+  }
+  .gpu { width: 280px; height: 220px; font-size: 28px; color: #4c1d95; }
+  .model {
+    width: 360px; height: 420px; background: linear-gradient(180deg, #8b5cf6, #6d28d9);
+    color: white; font-size: 56px; flex-direction: column; gap: 8px;
+  }
+  .model small { font-size: 22px; font-weight: 400; opacity: 0.9; }
+  .float-label {
+    position: absolute; top: 40px; left: 280px; background: #fef3c7; color: #92400e;
+    padding: 10px 16px; border-radius: 999px; font-size: 18px; font-weight: 600;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  }
+  .invented {
+    position: absolute; bottom: 40px; right: 120px; max-width: 360px;
+    font-size: 20px; color: #7c3aed; font-style: italic; line-height: 1.4;
+  }
+  .caption {
+    margin-top: 40px; text-align: center; font-size: 26px; color: #4c1d95;
+  }
+  .caption .bridge { display: block; margin-top: 8px; font-size: 20px; color: #8b5cf6; }
+  .tracker {
+    position: absolute; left: 80px; right: 80px; bottom: 88px;
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 18px; color: #6d28d9; font-weight: 600;
+  }
+  .steps { display: flex; gap: 24px; }
+  .step { opacity: 0.45; }
+  .step.active { opacity: 1; text-decoration: underline; }
+  .chrome {
+    position: absolute; left: 50%; bottom: 24px; transform: translateX(-50%);
+    display: flex; gap: 16px; align-items: center;
+  }
+  .chrome button {
+    border: none; border-radius: 999px; padding: 10px 22px; font-size: 16px;
+    background: #7c3aed; color: white; font-weight: 600;
+  }
+  .badge {
+    position: absolute; top: 40px; right: 80px;
+    background: #ddd6fe; color: #5b21b6; padding: 8px 14px; border-radius: 999px;
+    font-size: 14px; font-weight: 700; letter-spacing: 0.04em;
+  }
+</style>
+</head>
+<body>
+  <div class="frame">
+    <div class="badge">AI DEFAULT · PRE-EDIT</div>
+    <div class="eyebrow">Scene 01 · Understanding the bottleneck</div>
+    <h1>Running large models across GPUs</h1>
+    <p class="restatement">This scene explains how to run large models across GPUs when one GPU is not enough.</p>
+    <div class="diagram">
+      <div class="float-label">💡 Tip: bigger models need more space!</div>
+      <div class="box gpu">GPU<br /><span style="font-size:18px;font-weight:400;color:#7c3aed">your hardware</span></div>
+      <div class="box model">100B<small>parameters</small></div>
+      <p class="invented">Unlock seamless multi-GPU magic as your journey into distributed inference begins.</p>
+    </div>
+    <p class="caption">
+      One GPU can't hold the whole model
+      <span class="bridge">Bridge: the model is larger than a single GPU can store.</span>
+    </p>
+    <div class="tracker">
+      <div class="steps">
+        <span class="step active">1. The problem</span>
+        <span class="step">2. Split the model</span>
+        <span class="step">3. Tensor parallel</span>
+        <span class="step">4. Pipeline parallel</span>
+        <span class="step">5. Pick a path</span>
+      </div>
+      <span>01 / 05</span>
+    </div>
+    <div class="chrome">
+      <button>← Back</button>
+      <button>Pause</button>
+      <button>Next →</button>
+    </div>
+  </div>
+</body>
+</html>

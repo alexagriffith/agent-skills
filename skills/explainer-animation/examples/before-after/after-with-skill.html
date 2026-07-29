@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>AFTER — structure-only prompt + design tokens (skill)</title>
+<style>
+  /* Same beat as before-pre-skill.html, rebuilt with explainer-animation rules:
+     design tokens own style; prompt owns structure/text; no restating header;
+     no labeled tracker; no playback chrome; show the mismatch, don't narrate it. */
+  :root {
+    --bg: #F7F3EA;
+    --stage: #FBF7EE;
+    --ink: #1A1A1A;
+    --muted: #5C5C5C;
+    --line: #2A2A2A;
+    --accent: #6B4EFF;
+    --accent-ink: #FFFFFF;
+    --rail: #E8C84A;
+    --shadow: #1A1A1A;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    width: 1920px; height: 1080px; overflow: hidden;
+    font-family: "Avenir Next", "Segoe UI", sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+  }
+  .frame {
+    width: 1920px; height: 1080px; position: relative;
+    border-top: 8px solid var(--rail);
+  }
+  .band-header {
+    position: absolute; left: 80px; right: 80px; top: 40px; height: 120px;
+    display: flex; align-items: center;
+  }
+  .band-header h1 {
+    font-size: 42px; font-weight: 800; letter-spacing: -0.02em;
+  }
+  /* optional line under header: unused on purpose */
+  .band-point {
+    position: absolute; left: 80px; right: 80px; top: 160px; height: 90px;
+  }
+  .band-diagram {
+    position: absolute; left: 80px; right: 80px; top: 250px; height: 640px;
+    background:
+      linear-gradient(to right, rgba(0,0,0,0.04) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(0,0,0,0.04) 1px, transparent 1px),
+      var(--stage);
+    background-size: 40px 40px, 40px 40px, auto;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .scene {
+    position: relative; width: 920px; height: 480px;
+  }
+  .gpu {
+    position: absolute; left: 220px; top: 140px;
+    width: 480px; height: 260px;
+    background: #fff; border: 4px solid var(--line);
+    box-shadow: 10px 10px 0 var(--shadow);
+    border-radius: 18px;
+  }
+  .gpu-tag {
+    position: absolute; left: 220px; top: 108px;
+    background: var(--ink); color: #fff;
+    font-size: 18px; font-weight: 700; padding: 6px 14px; border-radius: 8px;
+  }
+  .model {
+    position: absolute; left: 300px; top: 40px;
+    width: 320px; height: 400px;
+    background: var(--accent); color: var(--accent-ink);
+    border-radius: 18px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    box-shadow: 10px 10px 0 var(--shadow);
+  }
+  .model .n { font-size: 96px; font-weight: 800; line-height: 1; }
+  .model .u { font-size: 28px; font-weight: 600; opacity: 0.92; margin-top: 4px; }
+  .band-sentence {
+    position: absolute; left: 80px; right: 80px; top: 900px; height: 130px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 8px; text-align: center;
+  }
+  .band-sentence .lead {
+    font-size: 34px; font-weight: 800;
+  }
+  .band-sentence .sub {
+    font-size: 22px; color: var(--muted); font-style: italic;
+  }
+  .mark {
+    position: absolute; top: 28px; right: 80px;
+    font-size: 14px; font-weight: 700; letter-spacing: 0.06em;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+  <div class="frame">
+    <div class="mark">SKILL PASS · STRUCTURE ONLY</div>
+    <div class="band-header">
+      <h1>Running large models across GPUs</h1>
+    </div>
+    <div class="band-point" aria-hidden="true"></div>
+    <div class="band-diagram">
+      <div class="scene">
+        <div class="gpu-tag">1 GPU</div>
+        <div class="gpu"></div>
+        <div class="model">
+          <div class="n">100B</div>
+          <div class="u">params</div>
+        </div>
+      </div>
+    </div>
+    <div class="band-sentence">
+      <div class="lead">One GPU can't hold the whole model</div>
+      <div class="sub">a 100B model is too large for a single GPU</div>
+    </div>
+  </div>
+</body>
+</html>
