@@ -5,15 +5,20 @@ Load when writing a prompt or fixing reveals, timing, or dead air.
 ## Core rule
 
 **Structure arrives fast. Interaction gets the time.**
+Motion mode is chosen per scene (`principles.md` § 5) — travel, flow/continuous, or
+settle + interact. Do not force one mode on every animation.
 
-- Land the whole scaffold (boxes, arrows, labels) in ~1.0–1.5s as one or two grouped
-  reveals. Do not stagger one reveal per box
+- For settle + interact: land the scaffold in ~1.0–1.5s as one or two grouped reveals.
+  Do not stagger one reveal per box.
+- For travel: the mover is continuous along the path at a readable speed — not frozen,
+  not frantic.
+- For flow: fills, streams, and growth stay continuous across the beat — no choppy jumps
+  to the end state.
 - Reserve stroke-travel drawing for moments where drawing *is* the point (boundary,
-  first connection, grouping bracket). Elsewhere boxes appear crisp with contents in them
-- Every content scene needs at least one **interaction beat**: motion between elements
-  that already exist (request along an arrow, queue filling, bar crossing a threshold,
-  cache hit lighting up). Named step, named duration. A scene that is only reveals is a
-  captioned diagram — merge or cut
+  first connection, grouping bracket). Elsewhere components appear crisp with contents.
+- Every content scene needs at least one **interaction beat** in the chosen mode
+  (path taken, queue filling, bar growing, cache lighting). Named step, named duration.
+  A scene that is only reveals is a captioned diagram — merge or cut.
 
 ## Focus
 

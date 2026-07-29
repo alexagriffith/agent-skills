@@ -70,7 +70,7 @@ Full text: `references/principles.md`. Short list:
 2. Titles and headers: concise but specific — name the thing, do not be vague
 3. Cold-viewer test (mute jargon; domain still obvious)
 4. Labels are not the diagram (mechanism first)
-5. Diagram kind fits the claim (architecture / meters / traffic — not only sliding boxes)
+5. Diagram + motion fit the claim (travel / flow / settle+interact — choose, don’t default)
 6. Highlight matches the box (exact segment geometry)
 7. Title card = title + simple static through-line diagram
 8. Form still matters (no invented style, timing, listed text only, no labeled tracker)

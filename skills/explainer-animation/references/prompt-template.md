@@ -41,20 +41,18 @@ Box style (state this in every prompt, it is not inherited reliably):
 - Boxes must look placed, not drawn by hand. Apply to outer boxes, nested boxes and every
   box-shaped mark, so the whole piece reads as one set of components.
 
-DIAGRAM KIND (choose before motion):
-- Match the visual to the claim. Technical topology → architectural diagram (components,
-  connectors, interiors). Quantity change → meters/fills. Do not default to labeled
-  rectangles sliding in as the whole lesson.
-- Interaction happens inside that diagram. Furniture rearranging is not enough.
-
-THE MOTION LAW (for things that actually move — traffic, fills, counters):
-- Traffic (request, token, job) moves as a small unlabeled solid along a path. It never
-  materialises at the end. It is not a labeled box (see DO NOT BOX OR LABEL TRAFFIC).
-- Quantity changes are watchable across their beat (fill, grow, climb).
-- FORBIDDEN for moving traffic: popping in, fading up, scaling in, stroke-by-stroke draw,
-  halo or pulse on arrival.
-- Architecture scaffold lands as one grouped settle in 1.0–1.5s. Do not introduce every
-  component by sliding it in from off frame as its own beat.
+DIAGRAM AND MOTION (choose per scene; see references/principles.md § 5):
+- Match diagram kind to the claim: architecture (boxes + connectors + interiors),
+  quantity (meters/fills), or comparison. Boxes are for named components, not every idea.
+- Match motion mode to the claim:
+  - Travel — discrete unlabeled mover on a path when the claim is where it goes / which path.
+    Never materialise at the end. Do not box or label traffic.
+  - Flow / continuous — smooth streams, fills, growth when the claim is volume, saturation,
+    or steady work. Prefer continuous over choppy pops.
+  - Settle + interact — scaffold lands as one group (~1.0–1.5s), then interaction inside.
+    Default for structure/state scenes. Do not slide each component in as its own beat.
+- Forbidden for any chosen motion: frantic stutter, accidental pop-to-end on a quantity
+  change the viewer was meant to watch, halo/pulse as the only “motion.”
 
 Emphasis and focus:
 - Header scale-pop ONLY when something else shares the frame; otherwise draw in place.

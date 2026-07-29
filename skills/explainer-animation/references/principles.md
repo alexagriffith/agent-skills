@@ -41,18 +41,30 @@ different words. Draw path, containment, fill, or motion first — then label.
 Show, don’t tell: structural claims get a reveal; metrics get counters/gauges/fills;
 a sentence is optional when the picture already carries the idea.
 
-## 5. Pick the diagram that fits the claim
+## 5. Diagram and motion fit the claim
 
-Do not default every idea to labeled rectangles that slide on and off.
+Choose the visual language **and** the motion language for this animation. Neither is
+universal. State the choice in the prompt when it matters.
 
-- Technical system / topology / ownership → architectural diagram: named components,
-  connectors, interiors that show state.
-- Comparison of quantities → meters, bars, growing regions — anchored to those components.
-- Traffic (request, token, job) → small unlabeled movers on paths, not another labeled box.
-- Interaction happens *inside* the diagram (fill, path choice, queue, counter). Rearranging
-  furniture is not an interaction beat.
+**Diagram**
+- Named components / topology / ownership → architectural diagram (boxes, connectors,
+  interiors). Boxes are good here.
+- Quantities / pressure / cost → meters, fills, growing regions on that architecture.
+- Do not replace a real diagram with floating labels that only rearrange.
 
-Boxes are fine for components. They are not the only visual language.
+**Motion — pick one primary mode per scene (mix only if the claim needs it)**
+- **Travel** — a discrete thing moves along a path (request, token, job as a small
+  unlabeled mover). Use when the claim is *where it goes* or *which path it takes*.
+  Never materialise at the end. Do not make traffic a labeled box.
+- **Flow / continuous** — streams, fills, gradients of activity, smooth growth. Use when
+  the claim is volume, saturation, accumulation, or steady work. Prefer non-choppy,
+  continuous motion over stuttered pops.
+- **Settle + interact** — architecture lands as one grouped scaffold, then interaction
+  happens inside it (highlight, fill, path choice, counter). Use when the claim is
+  structure or state, not a journey.
+
+**Fail if** every scene defaults to labeled boxes sliding in, or every scene forces travel
+when the claim wants flow (or the reverse).
 
 ## 6. Highlight matches the box
 
