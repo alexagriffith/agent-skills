@@ -4,7 +4,7 @@ Load when writing a prompt or fixing labels and captions.
 
 ## Fight invented words
 
-Design canvases invent captions, restate headers, and pad scenes with filler.
+Claude Design invents captions, restates headers, and pads scenes with filler.
 Counter that in every prompt:
 
 - Use only text listed in the prompt. End every scene with “Do not add any extra
@@ -25,17 +25,24 @@ Headers are titles, not moods. Concise **and** unambiguous.
 - If the animation already shows the verb, the header supplies the nouns.
 - Still ≤ ~6 words when possible. Specific beats clever.
 
-## Line under the header
+## What goes under the header
 
-**Optional, not required.**
+**A point line is optional, not required.**
 
-A header followed by a line that restates it is the most common bad pattern.
-Skip that line unless it adds a condition, number, or meaning the header does not
-already carry. When in doubt, omit it.
+A header followed by a line that restates it is the most common bad pattern on these
+frames Skip the point line unless it adds a condition,
+number, or meaning the header does not already carry. When in doubt, omit it.
 
-If present: exactly one line, no second restating line, no “bridge” caption.
+Worked example. Header “A vLLM Pod Serving Traffic” over point line “A vLLM pod takes
+requests in and sends generated tokens back” fails, because the second line says nothing
+the first did not. Either drop it, or give it the fact the header cannot carry, for example
+“Each pod holds its own Key-Value cache.”
+
+If present: exactly one line, no second restating line, no “Bridge:” caption.
 
 ## Compression rules
+
+Keep these on every frame so the prompt stays short and readable.
 
 - No em dashes and no colons. Commas, parentheses, or shorter phrasing
 - No bare acronyms on first use in a scene (TB/s, GB/s, p90, p99 stay as written)

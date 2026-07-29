@@ -8,7 +8,7 @@ Skills for Claude Code and other agents that follow the
 
 | Skill | What it does |
 |-------|----------------|
-| [`explainer-animation`](./skills/explainer-animation/) | Structure-only prompts for Claude Design explainer animations. Layout, pacing, and on-screen text — never colors or fonts. Your design system owns style. |
+| [`explainer-animation`](./skills/explainer-animation/) | Structure-only prompts for Claude Design explainer animations. Content spine first (claim + stakes), then layout/pacing/text — never colors or fonts. Your design system owns style. See `references/principles.md`. |
 
 ## Install
 

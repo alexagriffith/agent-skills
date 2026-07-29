@@ -29,20 +29,21 @@ Load when writing a prompt or fixing reveals, timing, or dead air.
 
 - **Never a labeled tracker.** Beat names do not live in a bottom rail. The closing
   summary card reviews the beats (miniatures + short labels).
-- **Unlabeled dots only when content scenes > 4.** Four or fewer: no tracker at all.
+- **Unlabeled dots only when content scenes > 4** (i.e. 5 or more technical scenes).
+  Four or fewer: no tracker at all.
 - Playback controls must not appear in the exported video. Quiet design-system progress
   chrome without Back / Pause / Next is fine.
 
 ## Timing formula
 
 ```
-scene_time = header(0.5s) + optional_line_under_header(0 or 1.0s) + scaffold(1.0–1.5s)
+scene_time = header(0.5s) + optional_point_line(0 or 1.0s) + scaffold(1.0–1.5s)
              + sum(interaction beats) + read_hold
 ```
 
 | Term | Value |
 |------|--------|
-| optional_line_under_header | 0s if omitted (preferred default); 1.0s if present |
+| optional_point_line | 0s if omitted (preferred default); 1.0s if present |
 | read_hold (visual-only / empty sentence band) | 1.5s |
 | read_hold (one sentence) | 3.0s |
 | read_hold (two sentences) | 3.5s |

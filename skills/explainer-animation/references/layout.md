@@ -44,7 +44,7 @@ Load when writing a prompt or fixing overlaps, arrows, spacing, or scene density
 - State a maximum number of element types per scene. Uniform grids of same-sized boxes
   count as one type. Every element in the animation order must already appear in the
   scene description. The number must equal the length of its parenthetical list
-- Never offer the builder a choice (“bracket or bar”) — specify exactly one visual
+- Never offer a choice (“bracket or bar”) — specify exactly one visual
 
 ## Canvas bands
 
@@ -54,7 +54,7 @@ No step tracker (normal case), top→bottom:
 |------|--------|
 | Top margin | 40px |
 | Header | 120px |
-| Optional line under header | 90px (leave empty if unused — do not invent a caption) |
+| Point line | 90px (leave empty if unused — do not invent a caption) |
 | Diagram | 640px |
 | Sentence | 130px (leave empty if unused) |
 | Bottom margin | 60px |

@@ -1,24 +1,30 @@
 # Review checklist
 
-Load only for a pre-paste review. Prefer a **fresh agent**, not the writer.
-Hand it this file + the prompt. Ask for pass/fail.
+Load only for a pre-paste review. Run in a **fresh subagent**, not the writer.
+Hand it this file + `references/principles.md` + the prompt. Ask for pass/fail.
+
+## Principles gate (from `principles.md`)
+
+- [ ] Content spine: claim + 2–4 stakes + each scene maps to a stake (not metaphor-only)
+- [ ] Teaching test: cold viewer can state the claim; each scene advances a stake
+- [ ] Headers name nouns (no bare “both / shapes / it / this”)
+- [ ] Cold-viewer: mute jargon — domain/mechanism still obvious
+- [ ] Labels are not the diagram (not “wide vs narrow” + stickers)
+- [ ] Highlight matches box (exact segment geometry; asymmetric = per column)
+- [ ] Title card: static title + simple through-line diagram already drawn at 0:00
+
+## Form gate
 
 - [ ] Zero color names, hex, fonts, or named design-system/template strings in the paste block
-- [ ] **Content spine present:** claim + 2–4 stakes + each scene maps to a stake (not metaphor-only)
-- [ ] Teaching test: a cold viewer could state the claim after watching; geometry-only fails
 - [ ] No invented captions; every text run is listed; empty bands stated when unused
-- [ ] Headers specific (name the nouns; no bare “both / shapes / it / this”)
-- [ ] No header + restating caption (line under header only if it adds a condition/number)
+- [ ] No header + restating point line (point line only if it adds a condition/number)
 - [ ] Technical claims and ownership verified against source docs
 - [ ] Labels ≤3 words; any sentence survives cover-the-picture test
-- [ ] **Cold-viewer test:** mute jargon labels — newcomer still sees the domain/mechanism
-- [ ] Labels are not the diagram (stripping labels must not leave “wide vs narrow” only)
-- [ ] Every shade/fill/underline bound to exact segment geometry (asymmetric bars: per column)
 - [ ] ≤7 element types per scene; count matches its list; animation order ⊆ description
 - [ ] No “X or Y” visual choices; every indicator specified
 - [ ] Spatial language exact; spanning elements anchored
 - [ ] Timing lines present; scene sum + gaps = stated total
 - [ ] “Do not add extra” on every scene including bookends
-- [ ] Title card static at 0:00 with title + simple through-line diagram already drawn; series id on its own line above the title and visibly smaller; standalone has title only (no invented episode); closing summary reviews beats; no labeled tracker; unlabeled dots only if content scenes > 4
+- [ ] Series: Episode id own line above title, visibly smaller; standalone: title only (no invented episode); closing reviews beats; no labeled tracker; unlabeled dots only if content scenes > 4
 - [ ] Scaffold + interaction pacing (not per-box stagger); every content scene has an interaction beat
 - [ ] Second adversarial pass on the *fixed* file

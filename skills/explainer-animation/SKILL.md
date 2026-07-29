@@ -20,11 +20,12 @@ never name a design-system project, never specify colors, fonts, or CSS.
 
 | Task | Read |
 |------|------|
-| Write a new prompt | this file → `references/layout.md` → `references/pacing.md` → `references/text.md` → `references/prompt-template.md` |
-| Fix layout / overlaps / arrows | `references/layout.md` |
+| Write a new prompt | this file → `references/principles.md` → `layout.md` → `pacing.md` → `text.md` → `prompt-template.md` |
+| Fix teaching / empty lesson / vague headers | `references/principles.md` + `references/text.md` |
+| Fix layout / overlaps / arrows / fills | `references/layout.md` |
 | Fix timing / reveals / interaction | `references/pacing.md` |
 | Fix on-screen wording | `references/text.md` |
-| Review before paste | `references/review.md` (+ the prompt file) |
+| Review before paste | `references/review.md` + `references/principles.md` (+ the prompt file) |
 
 Do not load every reference for a one-line fix.
 
@@ -42,26 +43,14 @@ Layout geometry (bands, gaps, box sizing from labels) is formatting — keep it.
 
 1. **Source** — read the doc, path, or paste. If verbal only, ask: audience, main point,
    rough scene count, source material?
-2. **Content spine (required before any scene).** Write three lines, then check them:
-   - **Claim** — the one sentence a viewer should leave with
-   - **Stakes** — 2–4 concrete consequences if the claim is true (latency, memory, cost,
-     routing, failure mode — whatever the source actually implies)
-   - **Show plan** — which stake each scene will *demonstrate* (not restate)
-   Fail this step if the spine is only a visual metaphor (“two bar lengths”) with no
-   consequences. Short labels and clean bands cannot rescue a missing argument.
-   “Fight invented words” forbids filler. It does **not** forbid teaching. If the source
-   is thin, ask for the stakes or pull them from the cited docs — do not ship geometry
-   with an empty lesson.
-3. **Scenes** — prefer short (fewer scenes → fewer builder errors). Longer step-by-step
-   or decision maps are fine when total duration reconciles.
-   Each content scene advances one spine item: header · visual that proves it · optional
-   sentence from source / spine wording.
-   A line under the header is optional — omit unless it adds a condition or number the
-   header does not already carry.
-   Bookend with a static title card and a closing card that reviews beats
-   (icon row + short labels, not a text list).
+2. **Content spine** — claim + 2–4 stakes + show plan. Required before any scene.
+   Detail and failure modes: `references/principles.md` § 1.
+3. **Scenes** — each scene advances one spine item: header · visual that proves it ·
+   optional sentence from source / spine wording. Prefer short. Bookend with a static
+   title card (title + simple diagram) and a closing card that reviews beats.
 4. **Write** — follow the load table; fill `references/prompt-template.md`.
-5. **Save** — write the prompt to a markdown file the user can keep. On request, copy
+5. **Gate** — run the teaching test in `references/principles.md` before paste.
+6. **Save** — write the prompt to a markdown file the user can keep. On request, copy
    the paste block to the clipboard (no frontmatter).
 
 ## Where it is built
@@ -75,33 +64,26 @@ Layout geometry (bands, gaps, box sizing from labels) is formatting — keep it.
 
 ## Hard principles (always on)
 
-- **Content spine before geometry.** Claim + stakes + show plan exist before scene layout.
-  A piece that only rearranges shapes around a topic name has failed, even if bands and
-  timing are perfect.
-- **Headers name nouns, not vibes.** Concise and specific. No “both / shapes / it / this”
-  without the things named in the header itself.
-- **Cold-viewer test.** Mute the jargon labels. A newcomer must still see *what system*
-  this is (e.g. a request into a model, not two abstract bars). If they would not know
-  what the piece is about, rewrite the visual — do not add more words.
-- **Labels name what is already visible; they are not the diagram.** If stripping labels
-  leaves shapes that only mean “wide vs narrow,” the scene is telling with stickers.
-  Draw the mechanism (path, containment, fill, motion), then label it.
-- **Highlight matches the box.** Any shade, fill, underline, or callout uses the exact
-  left / width / top / height of its target segment. Asymmetric composites: compute each
-  segment independently — never reuse one bar’s geometry for its sibling.
-- Scaffold fast (~1.0–1.5s); interaction beats get the time; every content scene has one
-- Fight invented words — only listed text; empty sentence band if the picture is enough
-- Ownership / containment claims verified against the project’s own docs
-- Max element types stated per scene; count matches the list; no “X or Y” visual choices
-- `Timing:` line per scene; scene sum + gaps = stated total
-- Title card static at 0:00 with title + simple through-line diagram; no playback chrome
+Full text: `references/principles.md`. Short list:
+
+1. Content spine before geometry (claim + stakes + show plan)
+2. Headers name nouns, not vibes (no bare both / shapes / it / this)
+3. Cold-viewer test (mute jargon; domain still obvious)
+4. Labels are not the diagram (mechanism first)
+5. Highlight matches the box (exact segment geometry)
+6. Title card = title + simple static through-line diagram
+7. Form still matters (no invented style, timing, listed text only, no labeled tracker)
+
+**Teaching test:** cold viewer can state the claim; each scene advances a stake;
+jargon-covered picture still makes sense. Geometry-only form passes are fails.
 
 ## Iterate
 
 Strong first version, then react to the live render. Batch change requests. Scrub
-transitions (ghost cards, detached arrowheads, text over lines, frozen tails, **fills
-that miss their box**). Keep the tab focused while exporting video.
+transitions (ghost cards, detached arrowheads, text over lines, frozen tails, fills
+that miss their box). Keep the tab focused while exporting video.
 
 ## Keeping this current
 
-Edit the smallest reference that owns the rule. Keep this router short.
+Edit the smallest reference that owns the rule. Solidified teaching/clarity rules live
+in `references/principles.md`. Keep this router short.
