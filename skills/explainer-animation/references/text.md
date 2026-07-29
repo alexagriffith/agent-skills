@@ -45,3 +45,13 @@ project’s own docs. If a sentence resists clean wording, suspect the claim.
 If it can be demonstrated visually, demonstrate it. Labels name what is already visible.
 A structural claim gets a reveal (bracket / enclosure), not a sentence while the diagram
 sits idle. Metrics: counters, gauges, bars, flowing dots — not paragraphs.
+
+**Cold-viewer test (required before paste).** Cover every jargon label. Ask: would a
+smart newcomer still know what domain this is in? Failure mode: two width-coded
+rectangles that only make sense after you read “Long in / Long out.” That is telling
+with stickers, not showing. Fix by drawing the mechanism first (e.g. prompt into a
+model, reply coming out; work lighting up on the long side), then short labels.
+
+**Labels are not the diagram.** Prefer fewer words *after* the picture carries the idea.
+Short labels on an empty metaphor still fail. If the only difference between two
+columns is which word is printed on which rectangle, rewrite the visual.

@@ -64,19 +64,27 @@ Layout geometry (bands, gaps, box sizing from labels) is formatting — keep it.
 
 ## Hard principles (always on)
 
-- Show, don’t tell — labels ≤3 words; structural claims get a reveal, not a sentence
+- **Cold-viewer test.** Mute the jargon labels. A newcomer must still see *what system*
+  this is (e.g. a request into a model, not two abstract bars). If they would not know
+  what the piece is about, rewrite the visual — do not add more words.
+- **Labels name what is already visible; they are not the diagram.** If stripping labels
+  leaves shapes that only mean “wide vs narrow,” the scene is telling with stickers.
+  Draw the mechanism (path, containment, fill, motion), then label it.
+- **Highlight matches the box.** Any shade, fill, underline, or callout uses the exact
+  left / width / top / height of its target segment. Asymmetric composites: compute each
+  segment independently — never reuse one bar’s geometry for its sibling.
 - Scaffold fast (~1.0–1.5s); interaction beats get the time; every content scene has one
 - Fight invented words — only listed text; empty sentence band if the picture is enough
 - Ownership / containment claims verified against the project’s own docs
 - Max element types stated per scene; count matches the list; no “X or Y” visual choices
 - `Timing:` line per scene; scene sum + gaps = stated total
-- Title card static at 0:00; no interactive playback chrome in the export
+- Title card static at 0:00 with title + simple through-line diagram; no playback chrome
 
 ## Iterate
 
 Strong first version, then react to the live render. Batch change requests. Scrub
-transitions (ghost cards, detached arrowheads, text over lines, frozen tails). Keep
-the tab focused while exporting video.
+transitions (ghost cards, detached arrowheads, text over lines, frozen tails, **fills
+that miss their box**). Keep the tab focused while exporting video.
 
 ## Keeping this current
 

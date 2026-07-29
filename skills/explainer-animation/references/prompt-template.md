@@ -37,6 +37,10 @@ Emphasis and focus:
 - New elements emphasize then settle to the default stroke. Existing elements stay at
   full strength unless they compete with the new focus (name why if dimming).
 - Group elements that are one idea into a single highlight beat.
+- Any shade or fill uses the exact left, width, top, and height of its named target
+  segment. Asymmetric composites: compute each column’s segments independently.
+- Cold-viewer test before shipping a scene: mute jargon labels; the diagram must still
+  show the domain and the mechanism. Labels name what is visible; they are not the diagram.
 
 Progress:
 - Never a labeled step tracker. The closing summary card reviews the beats.

@@ -8,6 +8,9 @@ Hand it this file + the prompt. Ask for pass/fail.
 - [ ] No header + restating caption (line under header only if it adds a condition/number)
 - [ ] Technical claims and ownership verified against source docs
 - [ ] Labels ≤3 words; any sentence survives cover-the-picture test
+- [ ] **Cold-viewer test:** mute jargon labels — newcomer still sees the domain/mechanism
+- [ ] Labels are not the diagram (stripping labels must not leave “wide vs narrow” only)
+- [ ] Every shade/fill/underline bound to exact segment geometry (asymmetric bars: per column)
 - [ ] ≤7 element types per scene; count matches its list; animation order ⊆ description
 - [ ] No “X or Y” visual choices; every indicator specified
 - [ ] Spatial language exact; spanning elements anchored

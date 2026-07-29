@@ -13,6 +13,19 @@ Load when writing a prompt or fixing overlaps, arrows, spacing, or scene density
 - Max 3 element groups stacked per column; split scenes rather than cram
 - Side-by-side columns: clear gutter, balanced visual weight
 
+## Highlights and fills (match the target)
+
+- A shade, fill, underline, progress clip, or callout is **owned by one named segment**.
+  In the prompt, name that segment and bind the mark to its geometry:
+  same left edge, same width, same top, same height (inset only if you state the inset).
+- **Composite / asymmetric bars:** each column has its own segment origins. Never reuse
+  bar A’s “long region starts at X” math for bar B when the long region is on the other
+  side. Compute left and width from *that* bar’s segments.
+- Failure mode: a purple fill that stops short of, overruns, or sits under the wrong
+  block while the label says the fill names that block. Treat as a hard fail on review.
+- Under-label for a fill sits centered under the **same** width as the filled segment,
+  ≥24px clear of the box bottom.
+
 ## Arrows and labels
 
 - Arrows start at the exact border of the source and end at the exact border of the target
