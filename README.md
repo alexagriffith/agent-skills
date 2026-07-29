@@ -66,9 +66,10 @@ the frame:
 
 Source: [`after-with-skill.html`](./skills/explainer-animation/examples/before-after/after-with-skill.html)
 
-**Shipped animation** from that same concept (exported video frame):
+**Shipped animation** from that same concept (content frame cropped out of the
+vertical export — the raw file is letterboxed with black bars):
 
-![Shipped GPU parallelism frame](./skills/explainer-animation/examples/before-after/shipped-gpu-parallelism.jpg)
+![Shipped GPU parallelism frame](./skills/explainer-animation/examples/before-after/shipped-gpu-parallelism.png)
 
 Full video: [`02-gpu-parallelism.mp4`](./skills/explainer-animation/examples/02-gpu-parallelism.mp4)
 
@@ -83,7 +84,7 @@ prompt. Source files live in
 |-------|---------|-------|
 | We're not there yet | [poster](./skills/explainer-animation/examples/01-were-not-there-yet.jpg) | [mp4](./skills/explainer-animation/examples/01-were-not-there-yet.mp4) |
 | Running large models across GPUs | [poster](./skills/explainer-animation/examples/02-gpu-parallelism.jpg) | [mp4](./skills/explainer-animation/examples/02-gpu-parallelism.mp4) |
-| Why agents fail in production | [poster](./skills/explainer-animation/examples/03-agents-in-production.jpg) | [mp4](./skills/explainer-animation/examples/03-agents-in-production.mp4) |
+| CPU:GPU — the ratio is changing | [poster](./skills/explainer-animation/examples/03-cpu-gpu-ratio.jpg) | [mp4](./skills/explainer-animation/examples/03-cpu-gpu-ratio.mp4) |
 
 ### We're not there yet
 
@@ -93,9 +94,9 @@ prompt. Source files live in
 
 ![GPU parallelism](./skills/explainer-animation/examples/02-gpu-parallelism.jpg)
 
-### Why agents fail in production
+### CPU:GPU — the ratio is changing
 
-![Why agents fail in production](./skills/explainer-animation/examples/03-agents-in-production.jpg)
+![CPU GPU ratio](./skills/explainer-animation/examples/03-cpu-gpu-ratio.jpg)
 
 ## Add another skill
 
