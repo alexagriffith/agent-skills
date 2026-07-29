@@ -7,6 +7,7 @@ Hand it this file + the prompt. Ask for pass/fail.
 - [ ] **Content spine present:** claim + 2–4 stakes + each scene maps to a stake (not metaphor-only)
 - [ ] Teaching test: a cold viewer could state the claim after watching; geometry-only fails
 - [ ] No invented captions; every text run is listed; empty bands stated when unused
+- [ ] Headers specific (name the nouns; no bare “both / shapes / it / this”)
 - [ ] No header + restating caption (line under header only if it adds a condition/number)
 - [ ] Technical claims and ownership verified against source docs
 - [ ] Labels ≤3 words; any sentence survives cover-the-picture test

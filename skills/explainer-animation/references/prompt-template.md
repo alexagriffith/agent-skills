@@ -65,6 +65,7 @@ Layout rules (text must never overlap a box, arrow, or other text):
 
 Text rules:
 - Do not invent captions. Use only text listed in this prompt.
+- Headers name concrete nouns on screen. No bare “both”, “shapes”, “it”, or “this”.
 - Line under the header is optional. Omit unless it adds a condition or number the
   header does not already carry. Never restate the header.
 - Sentence below the diagram only if the picture cannot carry the meaning. Otherwise

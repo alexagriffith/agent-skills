@@ -13,6 +13,18 @@ Counter that in every prompt:
   and say so (“sentence band unused, do not invent a caption”)
 - Never invent marketing phrasing. Takeaways come from the source or the user
 
+## Headers must be specific
+
+Headers are titles, not moods. Concise **and** unambiguous.
+
+- Name the concrete things on screen (prompt, reply, first token, KV cache).
+- Ban vague referents with no noun in the header itself: “both”, “shapes”, “it”,
+  “this”, “they”, “the split”, “what changes”.
+- Failure mode: “Latency splits across both” / “Same model, two shapes” — short, empty.
+  Fix: “Input length sets first token” / “Long prompt or long reply”.
+- If the animation already shows the verb, the header supplies the nouns.
+- Still ≤ ~6 words when possible. Specific beats clever.
+
 ## Line under the header
 
 **Optional, not required.**

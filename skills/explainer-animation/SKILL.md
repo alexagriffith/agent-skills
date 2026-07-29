@@ -78,6 +78,8 @@ Layout geometry (bands, gaps, box sizing from labels) is formatting — keep it.
 - **Content spine before geometry.** Claim + stakes + show plan exist before scene layout.
   A piece that only rearranges shapes around a topic name has failed, even if bands and
   timing are perfect.
+- **Headers name nouns, not vibes.** Concise and specific. No “both / shapes / it / this”
+  without the things named in the header itself.
 - **Cold-viewer test.** Mute the jargon labels. A newcomer must still see *what system*
   this is (e.g. a request into a model, not two abstract bars). If they would not know
   what the piece is about, rewrite the visual — do not add more words.
