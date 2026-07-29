@@ -26,8 +26,8 @@ Title card contract (both bookends):
   No subtitle, series name, tagline, or comma-joined id ("A-1").
 - Standalone piece: ONE title text run. Do not invent an episode number.
 - **Always a simple static diagram on the title card**, already fully drawn at 0:00,
-  below the title. It previews the through-line in one glance (e.g. two request bars).
-  Not a full scene, not a paragraph, not extra labels beyond what the diagram needs.
+  below the title. It previews the through-line in one glance (mini architecture or the
+  key comparison — not a pile of unlabeled vibes). Not a full scene, not a paragraph.
 - Closing card: same title framing (identifier + title if series), plus a short visual
   review of the beats walked through.
 
@@ -41,20 +41,20 @@ Box style (state this in every prompt, it is not inherited reliably):
 - Boxes must look placed, not drawn by hand. Apply to outer boxes, nested boxes and every
   box-shaped mark, so the whole piece reads as one set of components.
 
-THE MOTION LAW (state this first in every prompt, it governs every scene):
-- Anything representing a thing in motion must actually move. A request is a physical
-  object. It enters from off frame, travels a visible path at a steady readable speed, and
-  arrives. It never materialises where it lands.
-- FORBIDDEN for any moving element: popping in, fading up, scaling in, being drawn on
-  stroke by stroke, sketch or outline-assembly reveals, appearance flashes, halos, glows or
-  pulses on arrival.
-- Objects are placed solid and complete. If something must become present, it slides in
-  from off frame, or it is already there as part of the ONE grouped scaffold reveal, which
-  is a plain settle and not a drawing animation.
-- Structural components arriving mid-scene slide in from off frame and physically insert
-  themselves into the path, so the viewer sees the path change. They do not pop into a gap.
-- Travel costs more time than popping. Scenes get longer. That is correct, not a problem
-  to optimise away.
+DIAGRAM KIND (choose before motion):
+- Match the visual to the claim. Technical topology → architectural diagram (components,
+  connectors, interiors). Quantity change → meters/fills. Do not default to labeled
+  rectangles sliding in as the whole lesson.
+- Interaction happens inside that diagram. Furniture rearranging is not enough.
+
+THE MOTION LAW (for things that actually move — traffic, fills, counters):
+- Traffic (request, token, job) moves as a small unlabeled solid along a path. It never
+  materialises at the end. It is not a labeled box (see DO NOT BOX OR LABEL TRAFFIC).
+- Quantity changes are watchable across their beat (fill, grow, climb).
+- FORBIDDEN for moving traffic: popping in, fading up, scaling in, stroke-by-stroke draw,
+  halo or pulse on arrival.
+- Architecture scaffold lands as one grouped settle in 1.0–1.5s. Do not introduce every
+  component by sliding it in from off frame as its own beat.
 
 Emphasis and focus:
 - Header scale-pop ONLY when something else shares the frame; otherwise draw in place.

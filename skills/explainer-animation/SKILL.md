@@ -70,9 +70,10 @@ Full text: `references/principles.md`. Short list:
 2. Titles and headers: concise but specific — name the thing, do not be vague
 3. Cold-viewer test (mute jargon; domain still obvious)
 4. Labels are not the diagram (mechanism first)
-5. Highlight matches the box (exact segment geometry)
-6. Title card = title + simple static through-line diagram
-7. Form still matters (no invented style, timing, listed text only, no labeled tracker)
+5. Diagram kind fits the claim (architecture / meters / traffic — not only sliding boxes)
+6. Highlight matches the box (exact segment geometry)
+7. Title card = title + simple static through-line diagram
+8. Form still matters (no invented style, timing, listed text only, no labeled tracker)
 
 **Teaching test:** cold viewer can state the claim; each scene advances a stake;
 jargon-covered picture still makes sense. Geometry-only form passes are fails.

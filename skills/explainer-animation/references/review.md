@@ -10,6 +10,7 @@ Hand it this file + `references/principles.md` + the prompt. Ask for pass/fail.
 - [ ] Titles and headers: concise but specific (not vague)
 - [ ] Cold-viewer: mute jargon — domain/mechanism still obvious
 - [ ] Labels are not the diagram (not “wide vs narrow” + stickers)
+- [ ] Diagram kind fits the claim (not default labeled boxes sliding as the whole lesson)
 - [ ] Highlight matches box (exact segment geometry; asymmetric = per column)
 - [ ] Title card: static title + simple through-line diagram already drawn at 0:00
 

@@ -2,6 +2,9 @@
 
 Load when writing a prompt or fixing overlaps, arrows, spacing, or scene density.
 
+Boxes are for **named components** in a diagram. They are not the default for every idea.
+See `principles.md` § 5 (diagram kind) and the traffic rule in `prompt-template.md`.
+
 ## Boxes
 
 - Pixel-aligned on a grid. No overlapping elements
@@ -12,6 +15,8 @@ Load when writing a prompt or fixing overlaps, arrows, spacing, or scene density
   rectangle is a placeholder, not a diagram
 - Max 3 element groups stacked per column; split scenes rather than cram
 - Side-by-side columns: clear gutter, balanced visual weight
+- Architectural scenes: connectors between components; show interiors when the claim is
+  about what is inside. Do not replace an architecture with three floating labels.
 
 ## Highlights and fills (match the target)
 

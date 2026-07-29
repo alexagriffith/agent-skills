@@ -41,7 +41,20 @@ different words. Draw path, containment, fill, or motion first — then label.
 Show, don’t tell: structural claims get a reveal; metrics get counters/gauges/fills;
 a sentence is optional when the picture already carries the idea.
 
-## 5. Highlight matches the box
+## 5. Pick the diagram that fits the claim
+
+Do not default every idea to labeled rectangles that slide on and off.
+
+- Technical system / topology / ownership → architectural diagram: named components,
+  connectors, interiors that show state.
+- Comparison of quantities → meters, bars, growing regions — anchored to those components.
+- Traffic (request, token, job) → small unlabeled movers on paths, not another labeled box.
+- Interaction happens *inside* the diagram (fill, path choice, queue, counter). Rearranging
+  furniture is not an interaction beat.
+
+Boxes are fine for components. They are not the only visual language.
+
+## 6. Highlight matches the box
 
 Any shade, fill, underline, progress clip, or callout is owned by **one named segment**.
 
@@ -52,7 +65,7 @@ Any shade, fill, underline, progress clip, or callout is owned by **one named se
 
 **Fail if** the fill stops short, overruns, or sits under the wrong block.
 
-## 6. Title card = title + simple static visual
+## 7. Title card = title + simple static visual
 
 - Static at 0:00. Every mark already drawn. Nothing animates in.
 - Standalone: one title text run + a small through-line diagram below it.
@@ -60,7 +73,7 @@ Any shade, fill, underline, progress clip, or callout is owned by **one named se
 - No subtitle, series name, or paragraph on the title card.
 - Closing card: same title framing + short visual review of the beats.
 
-## 7. Form still matters (do not drop these)
+## 8. Form still matters (do not drop these)
 
 - Never invent style (colors, fonts, named design systems) — use project tokens
 - Scaffold ~1.0–1.5s; interaction beats get the time; every content scene has one
