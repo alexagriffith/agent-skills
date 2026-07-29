@@ -80,6 +80,15 @@ Style comes from the design tokens in the Claude Design project, not from the
 prompt. Source files live in
 [`skills/explainer-animation/examples/`](./skills/explainer-animation/examples/).
 
+### Design system (example)
+
+The skill never names colors, fonts, or a palette. Style comes from whatever
+design system is already loaded in the Claude Design project. Here is one of
+mine — hand-drawn hard tech, type scales, docs/landing shells — so you can see
+what “follow the style tokens” means in practice:
+
+![Example design system](./skills/explainer-animation/examples/design-system.png)
+
 | Piece | Preview | Video |
 |-------|---------|-------|
 | We're not there yet | [poster](./skills/explainer-animation/examples/01-were-not-there-yet.jpg) | [mp4](./skills/explainer-animation/examples/01-were-not-there-yet.mp4) |
