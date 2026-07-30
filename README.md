@@ -66,15 +66,13 @@ Made with a loaded design system + structure prompts. Source files in
 **Good example — ownership + path:** cert-manager issues and renews a TLS certificate;
 the vLLM pod serves traffic over TLS.
 
-![cert-manager](./skills/explainer-animation/examples/05-cert-manager.png)
+![cert-manager](./skills/explainer-animation/examples/03-cert-manager.png)
 
 | Piece | Preview | Video |
 |-------|---------|-------|
 | Model commodity question | [poster](./skills/explainer-animation/examples/01-model-commodity-question.jpg) | [mp4](./skills/explainer-animation/examples/01-model-commodity-question.mp4) |
 | Running large models across GPUs | [poster](./skills/explainer-animation/examples/02-gpu-parallelism.jpg) | [mp4](./skills/explainer-animation/examples/02-gpu-parallelism.mp4) |
-| Runtime and scale | [poster](./skills/explainer-animation/examples/03-runtime-and-scale.jpg) | [mp4](./skills/explainer-animation/examples/03-runtime-and-scale.mp4) |
-| Inference stack | [poster](./skills/explainer-animation/examples/04-inference-stack.jpg) | [mp4](./skills/explainer-animation/examples/04-inference-stack.mp4) |
-| cert-manager | [poster](./skills/explainer-animation/examples/05-cert-manager.png) | — |
+| cert-manager | [poster](./skills/explainer-animation/examples/03-cert-manager.png) | — |
 
 ### Model commodity question
 
@@ -84,17 +82,9 @@ the vLLM pod serves traffic over TLS.
 
 ![GPU parallelism](./skills/explainer-animation/examples/02-gpu-parallelism.jpg)
 
-### Runtime and scale
-
-![Runtime and scale](./skills/explainer-animation/examples/03-runtime-and-scale.jpg)
-
-### Inference stack
-
-![Inference stack](./skills/explainer-animation/examples/04-inference-stack.jpg)
-
 ### cert-manager
 
-![cert-manager](./skills/explainer-animation/examples/05-cert-manager.png)
+![cert-manager](./skills/explainer-animation/examples/03-cert-manager.png)
 
 ## Writing cleanup (short list)
 
