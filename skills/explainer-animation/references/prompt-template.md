@@ -32,14 +32,12 @@ Title card contract (both bookends):
   review of the beats walked through.
 
 Box style (state this in every prompt, it is not inherited reliably):
-- Every box is a normal, solid, placed box. Rounded rectangle, flat opaque fill from the
-  style tokens, ONE clean stroke of uniform weight, at least 2px, consistent on all four
-  sides.
-- Forbidden: sketch or hand-drawn effect, wobbling or jittered outlines, doubled or offset
-  outlines, dashed or dotted or broken strokes, hairline 1px outlines, transparent fills
-  that show the background, open corners.
-- Boxes must look placed, not drawn by hand. Apply to outer boxes, nested boxes and every
-  box-shaped mark, so the whole piece reads as one set of components.
+- Boxes use the design system already loaded: solid placed components, fill and stroke
+  from the style tokens, consistent weight on all four sides.
+- Forbidden unless the design system already defines them: doubled or offset outlines,
+  hairline 1px outlines, transparent fills that show the background, open corners.
+- Do not invent a second box language on top of the project tokens. Outer boxes, nested
+  boxes, and box-shaped marks should read as one component set.
 
 DIAGRAM AND MOTION (choose per scene; see references/principles.md § 5):
 - Match diagram kind to the claim: architecture (boxes + connectors + interiors),
