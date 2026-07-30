@@ -56,8 +56,17 @@ already loaded in the Claude Design project:
 Made with a loaded design system + structure prompts. Source files in
 [`skills/explainer-animation/examples/`](./skills/explainer-animation/examples/).
 
+**Good example — architecture + flow:** priority tiers into the Endpoint Picker, queued by
+priority then tenant, then routed to the best-fit pod. Boxes for components; movers on the
+paths. This is the diagram kind the skill is aiming for.
+
+![Flow control, intelligent routing](./skills/explainer-animation/examples/09-flow-control-routing.png)
+
+Video: [`04-flow-control.mp4`](./skills/explainer-animation/examples/04-flow-control.mp4)
+
 | Piece | Preview | Video |
 |-------|---------|-------|
+| Flow control, intelligent routing | [poster](./skills/explainer-animation/examples/09-flow-control-routing.png) | [mp4](./skills/explainer-animation/examples/04-flow-control.mp4) |
 | We're not there yet | [poster](./skills/explainer-animation/examples/01-were-not-there-yet.jpg) | [mp4](./skills/explainer-animation/examples/01-were-not-there-yet.mp4) |
 | Running large models across GPUs | [poster](./skills/explainer-animation/examples/02-gpu-parallelism.jpg) | [mp4](./skills/explainer-animation/examples/02-gpu-parallelism.mp4) |
 | CPU:GPU — the ratio is changing | [poster](./skills/explainer-animation/examples/03-cpu-gpu-ratio.jpg) | [mp4](./skills/explainer-animation/examples/03-cpu-gpu-ratio.mp4) |
@@ -78,6 +87,10 @@ Made with a loaded design system + structure prompts. Source files in
 ### CPU:GPU — the ratio is changing
 
 ![CPU GPU ratio](./skills/explainer-animation/examples/03-cpu-gpu-ratio.jpg)
+
+### Flow control, intelligent routing
+
+![Flow control, intelligent routing](./skills/explainer-animation/examples/09-flow-control-routing.png)
 
 ### Flow control with llm-d
 
