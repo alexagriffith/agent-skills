@@ -34,10 +34,8 @@ settle + interact. Do not force one mode on every animation.
 
 - **Never a labeled tracker.** Beat names do not live in a bottom rail. The closing
   summary card reviews the beats (miniatures + short labels).
-- **Unlabeled dots only when content scenes > 4** (i.e. 5 or more technical scenes).
-  Four or fewer: no tracker at all.
-- Playback controls must not appear in the exported video. Quiet design-system progress
-  chrome without Back / Pause / Next is fine.
+- Unlabeled dots or quiet design-system progress chrome are optional — no scene-count gate.
+- Playback controls must not appear in the exported video. No Back / Pause / Next.
 
 ## Timing formula
 

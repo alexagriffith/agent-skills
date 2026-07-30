@@ -92,7 +92,7 @@ Any shade, fill, underline, progress clip, or callout is owned by **one named se
 - Only listed on-screen text; empty bands stated when unused
 - Max element types stated per scene; count matches the list; no “X or Y” choices
 - `Timing:` line per scene; scene sum + gaps = stated total
-- No labeled step tracker; unlabeled dots only if content scenes > 4
+- No labeled step tracker; unlabeled dots / quiet progress chrome optional (no scene-count rule)
 - No interactive playback chrome in the export
 - Ownership/containment claims verified against source docs
 

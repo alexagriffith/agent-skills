@@ -64,7 +64,7 @@ No step tracker (normal case), top→bottom:
 | Sentence | 130px (leave empty if unused) |
 | Bottom margin | 60px |
 
-With unlabeled dots (only when content scenes > 4): diagram 550px + tracker 90px.
+If unlabeled dots / quiet progress chrome are present: diagram 550px + tracker 90px.
 Usable width 1760px after 80px side margins. Nothing crosses band boundaries. Never put
 beat-name labels in the tracker band.
 

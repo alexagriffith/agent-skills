@@ -63,9 +63,10 @@ Emphasis and focus:
   show the domain and the mechanism. Labels name what is visible; they are not the diagram.
 
 Progress:
-- Never a labeled step tracker. The closing summary card reviews the beats.
-- Four or fewer content scenes: NO tracker of any kind.
-- More than four content scenes: small unlabeled dots at the bottom only.
+- Never a labeled step tracker (no beat names in a bottom rail). The closing summary
+  card reviews the beats.
+- Unlabeled dots or quiet design-system progress chrome are optional — use when helpful.
+  No scene-count rule.
 
 Pacing:
 - Scaffold lands in 1.0–1.5s as one grouped block. Interaction beats get the time.
