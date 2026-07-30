@@ -11,6 +11,13 @@ Skills for Claude Code and other agents that follow the
 | [`explainer-animation`](./skills/explainer-animation/) | Structure-only prompts for Claude Design explainer animations. Content spine first, then layout / pacing / text — never colors or fonts. Your design system owns style. See [`references/principles.md`](./skills/explainer-animation/references/principles.md). |
 | [`visual-style-laws`](./skills/visual-style-laws/) | Rules for headings, prose, tables, and theming on visual pages and decks. |
 
+## How it works (`explainer-animation`)
+
+1. Have an idea.
+2. Invoke the skill to turn it into a Claude Design prompt.
+3. Paste into Claude Design with your design system already loaded.
+4. Iterate on the live render — often under five passes, not a guarantee.
+
 ## Install
 
 ```bash

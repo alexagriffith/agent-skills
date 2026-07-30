@@ -41,26 +41,18 @@ Layout geometry (bands, gaps, box sizing from labels) is formatting — keep it.
 
 ## Process
 
-1. **Source** — read the doc, path, or paste. If verbal only, ask: audience, main point,
-   rough scene count, source material?
-2. **Content spine** — claim + 2–4 stakes + show plan. Required before any scene.
-   Detail and failure modes: `references/principles.md` § 1.
-3. **Scenes** — each scene advances one spine item: header · visual that proves it ·
-   optional sentence from source / spine wording. Prefer short. Bookend with a static
-   title card (title + simple diagram) and a closing card that reviews beats.
-4. **Write** — follow the load table; fill `references/prompt-template.md`.
-5. **Gate** — run the teaching test in `references/principles.md` before paste.
-6. **Save** — write the prompt to a markdown file the user can keep. On request, copy
-   the paste block to the clipboard (no frontmatter).
+1. **Have an idea** — a claim worth teaching (doc, paste, or verbal). Pull claim + stakes
+   before any geometry (`references/principles.md`).
+2. **Invoke this skill** — it writes a paste-ready Claude Design prompt (structure,
+   layout, motion, on-screen text only — never colors or fonts).
+3. **Paste into Claude Design** — project already has your design system / template.
+   Always create a **NEW** canvas file. Match the reference file’s export contract.
+   Do not export until you say it looks good.
+4. **Iterate on the live render** — hope for something that works in under five passes.
+   Not a guarantee. Batch fixes; scrub transitions; keep the tab focused on export.
 
-## Where it is built
-
-- Open the design project that already has the user’s design system
-- Always create a **NEW** canvas file. Never overwrite. Say so explicitly
-- Match the **reference file’s** export contract (clock-driven video when available,
-  16:9 1920×1080)
-- Hold export until the user approves: “do not export, I will review first” on every
-  iteration until they say it looks good
+When writing the prompt, follow the load table → `references/prompt-template.md`, then
+the teaching test in `references/principles.md` before paste.
 
 ## Hard principles (always on)
 
@@ -80,9 +72,8 @@ jargon-covered picture still makes sense. Geometry-only form passes are fails.
 
 ## Iterate
 
-Strong first version, then react to the live render. Batch change requests. Scrub
-transitions (ghost cards, detached arrowheads, text over lines, frozen tails, fills
-that miss their box). Keep the tab focused while exporting video.
+Step 4 above. Batch change requests. Scrub transitions (ghost cards, detached
+arrowheads, text over lines, frozen tails, fills that miss their box).
 
 ## Keeping this current
 
