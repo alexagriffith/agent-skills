@@ -76,6 +76,10 @@ the vLLM pod serves traffic over TLS.
 
 ![GPU parallelism](./skills/explainer-animation/examples/02-gpu-parallelism.jpg)
 
+### CPU:GPU ratio
+
+![CPU:GPU ratio](./skills/explainer-animation/examples/04-cpu-gpu-ratio.jpg)
+
 ### Files
 
 | Piece | Preview | Video |
@@ -83,6 +87,7 @@ the vLLM pod serves traffic over TLS.
 | Model commodity question | [poster](./skills/explainer-animation/examples/01-model-commodity-question.jpg) | [mp4](./skills/explainer-animation/examples/01-model-commodity-question.mp4) |
 | Running large models across GPUs | [poster](./skills/explainer-animation/examples/02-gpu-parallelism.jpg) | [mp4](./skills/explainer-animation/examples/02-gpu-parallelism.mp4) |
 | cert-manager | [poster](./skills/explainer-animation/examples/03-cert-manager.png) | — |
+| CPU:GPU ratio | [poster](./skills/explainer-animation/examples/04-cpu-gpu-ratio.jpg) | [mp4](./skills/explainer-animation/examples/04-cpu-gpu-ratio.mp4) |
 
 ## Writing cleanup (short list)
 
