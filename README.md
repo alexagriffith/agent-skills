@@ -68,12 +68,6 @@ the vLLM pod serves traffic over TLS.
 
 ![cert-manager](./skills/explainer-animation/examples/03-cert-manager.png)
 
-| Piece | Preview | Video |
-|-------|---------|-------|
-| Model commodity question | [poster](./skills/explainer-animation/examples/01-model-commodity-question.jpg) | [mp4](./skills/explainer-animation/examples/01-model-commodity-question.mp4) |
-| Running large models across GPUs | [poster](./skills/explainer-animation/examples/02-gpu-parallelism.jpg) | [mp4](./skills/explainer-animation/examples/02-gpu-parallelism.mp4) |
-| cert-manager | [poster](./skills/explainer-animation/examples/03-cert-manager.png) | — |
-
 ### Model commodity question
 
 ![Model commodity question](./skills/explainer-animation/examples/01-model-commodity-question.jpg)
@@ -82,9 +76,13 @@ the vLLM pod serves traffic over TLS.
 
 ![GPU parallelism](./skills/explainer-animation/examples/02-gpu-parallelism.jpg)
 
-### cert-manager
+### Files
 
-![cert-manager](./skills/explainer-animation/examples/03-cert-manager.png)
+| Piece | Preview | Video |
+|-------|---------|-------|
+| Model commodity question | [poster](./skills/explainer-animation/examples/01-model-commodity-question.jpg) | [mp4](./skills/explainer-animation/examples/01-model-commodity-question.mp4) |
+| Running large models across GPUs | [poster](./skills/explainer-animation/examples/02-gpu-parallelism.jpg) | [mp4](./skills/explainer-animation/examples/02-gpu-parallelism.mp4) |
+| cert-manager | [poster](./skills/explainer-animation/examples/03-cert-manager.png) | — |
 
 ## Writing cleanup (short list)
 
