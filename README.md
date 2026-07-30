@@ -64,9 +64,16 @@ paths. This is the diagram kind the skill is aiming for.
 
 Video: [`04-flow-control.mp4`](./skills/explainer-animation/examples/04-flow-control.mp4)
 
+**Good example — ownership + path:** cert-manager issues and renews a TLS certificate;
+the vLLM pod serves traffic over TLS. Namespaces as containers; the certificate is the
+mechanism in the middle.
+
+![cert-manager](./skills/explainer-animation/examples/10-cert-manager.png)
+
 | Piece | Preview | Video |
 |-------|---------|-------|
 | Flow control, intelligent routing | [poster](./skills/explainer-animation/examples/09-flow-control-routing.png) | [mp4](./skills/explainer-animation/examples/04-flow-control.mp4) |
+| cert-manager | [poster](./skills/explainer-animation/examples/10-cert-manager.png) | — |
 | We're not there yet | [poster](./skills/explainer-animation/examples/01-were-not-there-yet.jpg) | [mp4](./skills/explainer-animation/examples/01-were-not-there-yet.mp4) |
 | Running large models across GPUs | [poster](./skills/explainer-animation/examples/02-gpu-parallelism.jpg) | [mp4](./skills/explainer-animation/examples/02-gpu-parallelism.mp4) |
 | CPU:GPU — the ratio is changing | [poster](./skills/explainer-animation/examples/03-cpu-gpu-ratio.jpg) | [mp4](./skills/explainer-animation/examples/03-cpu-gpu-ratio.mp4) |
@@ -91,6 +98,10 @@ Video: [`04-flow-control.mp4`](./skills/explainer-animation/examples/04-flow-con
 ### Flow control, intelligent routing
 
 ![Flow control, intelligent routing](./skills/explainer-animation/examples/09-flow-control-routing.png)
+
+### cert-manager
+
+![cert-manager](./skills/explainer-animation/examples/10-cert-manager.png)
 
 ### Flow control with llm-d
 
