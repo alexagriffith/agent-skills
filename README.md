@@ -63,72 +63,38 @@ already loaded in the Claude Design project:
 Made with a loaded design system + structure prompts. Source files in
 [`skills/explainer-animation/examples/`](./skills/explainer-animation/examples/).
 
-**Good example — architecture + flow:** priority tiers into the Endpoint Picker, queued by
-priority then tenant, then routed to the best-fit pod. Boxes for components; movers on the
-paths. This is the diagram kind the skill is aiming for.
-
-![Flow control, intelligent routing](./skills/explainer-animation/examples/09-flow-control-routing.png)
-
-Video: [`04-flow-control.mp4`](./skills/explainer-animation/examples/04-flow-control.mp4)
-
 **Good example — ownership + path:** cert-manager issues and renews a TLS certificate;
-the vLLM pod serves traffic over TLS. Namespaces as containers; the certificate is the
-mechanism in the middle.
+the vLLM pod serves traffic over TLS.
 
-![cert-manager](./skills/explainer-animation/examples/10-cert-manager.png)
+![cert-manager](./skills/explainer-animation/examples/05-cert-manager.png)
 
 | Piece | Preview | Video |
 |-------|---------|-------|
-| Flow control, intelligent routing | [poster](./skills/explainer-animation/examples/09-flow-control-routing.png) | [mp4](./skills/explainer-animation/examples/04-flow-control.mp4) |
-| cert-manager | [poster](./skills/explainer-animation/examples/10-cert-manager.png) | — |
-| We're not there yet | [poster](./skills/explainer-animation/examples/01-were-not-there-yet.jpg) | [mp4](./skills/explainer-animation/examples/01-were-not-there-yet.mp4) |
+| Model commodity question | [poster](./skills/explainer-animation/examples/01-model-commodity-question.jpg) | [mp4](./skills/explainer-animation/examples/01-model-commodity-question.mp4) |
 | Running large models across GPUs | [poster](./skills/explainer-animation/examples/02-gpu-parallelism.jpg) | [mp4](./skills/explainer-animation/examples/02-gpu-parallelism.mp4) |
-| CPU:GPU — the ratio is changing | [poster](./skills/explainer-animation/examples/03-cpu-gpu-ratio.jpg) | [mp4](./skills/explainer-animation/examples/03-cpu-gpu-ratio.mp4) |
-| Flow control with llm-d | [poster](./skills/explainer-animation/examples/04-flow-control.jpg) | [mp4](./skills/explainer-animation/examples/04-flow-control.mp4) |
-| Inference architecture | [poster](./skills/explainer-animation/examples/05-inference-architecture.jpg) | [mp4](./skills/explainer-animation/examples/05-inference-architecture.mp4) |
-| Agents in production | [poster](./skills/explainer-animation/examples/06-agents-in-production.jpg) | [mp4](./skills/explainer-animation/examples/06-agents-in-production.mp4) |
-| Runtime and scale | [poster](./skills/explainer-animation/examples/07-runtime-and-scale.jpg) | [mp4](./skills/explainer-animation/examples/07-runtime-and-scale.mp4) |
-| Inference stack | [poster](./skills/explainer-animation/examples/08-inference-stack.jpg) | [mp4](./skills/explainer-animation/examples/08-inference-stack.mp4) |
+| Runtime and scale | [poster](./skills/explainer-animation/examples/03-runtime-and-scale.jpg) | [mp4](./skills/explainer-animation/examples/03-runtime-and-scale.mp4) |
+| Inference stack | [poster](./skills/explainer-animation/examples/04-inference-stack.jpg) | [mp4](./skills/explainer-animation/examples/04-inference-stack.mp4) |
+| cert-manager | [poster](./skills/explainer-animation/examples/05-cert-manager.png) | — |
 
-### We're not there yet
+### Model commodity question
 
-![We're not there yet](./skills/explainer-animation/examples/01-were-not-there-yet.jpg)
+![Model commodity question](./skills/explainer-animation/examples/01-model-commodity-question.jpg)
 
 ### Running large models across GPUs
 
 ![GPU parallelism](./skills/explainer-animation/examples/02-gpu-parallelism.jpg)
 
-### CPU:GPU — the ratio is changing
-
-![CPU GPU ratio](./skills/explainer-animation/examples/03-cpu-gpu-ratio.jpg)
-
-### Flow control, intelligent routing
-
-![Flow control, intelligent routing](./skills/explainer-animation/examples/09-flow-control-routing.png)
-
-### cert-manager
-
-![cert-manager](./skills/explainer-animation/examples/10-cert-manager.png)
-
-### Flow control with llm-d
-
-![Flow control](./skills/explainer-animation/examples/04-flow-control.jpg)
-
-### Inference architecture
-
-![Inference architecture](./skills/explainer-animation/examples/05-inference-architecture.jpg)
-
-### Agents in production
-
-![Agents in production](./skills/explainer-animation/examples/06-agents-in-production.jpg)
-
 ### Runtime and scale
 
-![Runtime and scale](./skills/explainer-animation/examples/07-runtime-and-scale.jpg)
+![Runtime and scale](./skills/explainer-animation/examples/03-runtime-and-scale.jpg)
 
 ### Inference stack
 
-![Inference stack](./skills/explainer-animation/examples/08-inference-stack.jpg)
+![Inference stack](./skills/explainer-animation/examples/04-inference-stack.jpg)
+
+### cert-manager
+
+![cert-manager](./skills/explainer-animation/examples/05-cert-manager.png)
 
 ## Writing cleanup (short list)
 
