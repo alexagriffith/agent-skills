@@ -19,6 +19,17 @@ Skills for Claude Code and other agents that follow the
 3. Paste into Claude Design with your design system already loaded.
 4. Iterate on the live render — often under five passes, not a guarantee.
 
+## How it works (`html2deck`)
+
+1. Point it at a long HTML page (`section` units by default).
+2. It measures rendered height, builds a visual-first face, and splits safely.
+3. Review the contact sheet, then emit `.pptx` + `.pdf`.
+
+Full write-up with slide examples:
+[`skills/html2deck/README.md`](./skills/html2deck/README.md).
+
+![html2deck slide shapes](./skills/html2deck/examples/06-pipeline-strip.png)
+
 ## Install
 
 ```bash
