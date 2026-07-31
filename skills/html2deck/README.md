@@ -56,6 +56,13 @@ Tables use a fixed layout and a hard width clamp so columns are not clipped.
 
 ---
 
+
+### Homepage Export
+
+![Homepage with Export](./examples/07-homepage-export.png)
+
+![Export menu open](./examples/07-homepage-export-menu.png)
+
 ## Quick start
 
 ```bash
@@ -117,6 +124,8 @@ Uses a bundled fixture under `tests/fixtures/` (no machine-local paths).
 | [`examples/04-card-grid.png`](./examples/04-card-grid.png) | Card grid retained |
 | [`examples/05-table-and-diagram.png`](./examples/05-table-and-diagram.png) | Table + diagram, width-safe |
 | [`examples/06-pipeline-strip.png`](./examples/06-pipeline-strip.png) | Three shapes at a glance |
+| [`examples/07-homepage-export.png`](./examples/07-homepage-export.png) | Live homepage with Export |
+| [`examples/07-homepage-export-menu.png`](./examples/07-homepage-export-menu.png) | Export menu open (PPTX / PDF) |
 
 Slides above are from the public
 [flow-control-benchmarks](https://alexagriffith.github.io/flow-control-benchmarks/)
