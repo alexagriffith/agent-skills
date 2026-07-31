@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<title>html2deck fixture</title>
+<style>
+  :root { --ink:#151515; --bg:#fafafa; --card:#fff; --line:#ddd; }
+  html[data-theme="dark"] { --ink:#e8eaf0; --bg:#0e1014; --card:#14171d; --line:#333; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.5 system-ui,sans-serif; }
+  section { background:var(--card); border:1px solid var(--line);
+    border-radius:16px; padding:28px; margin:24px auto; max-width:980px; }
+  h1,h2 { margin:0 0 12px; letter-spacing:-.02em; }
+  p { margin:0 0 10px; }
+  .fig { margin-top:12px; }
+  .fig svg { display:block; width:100%; height:auto; }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  th,td { border:1px solid var(--line); padding:8px 10px; text-align:left; }
+  th { font-size:11px; text-transform:uppercase; letter-spacing:.06em; }
+</style>
+</head>
+<body>
+<section>
+  <h1>Measuring flow control under pressure.</h1>
+  <p>A short opener for the title page.</p>
+</section>
+
+<section>
+  <h2>Request path</h2>
+  <p>Traffic hits the gateway, then the Endpoint Picker, then a server.</p>
+  <div class="fig">
+    <svg viewBox="0 0 640 180" xmlns="http://www.w3.org/2000/svg" role="img">
+      <rect width="640" height="180" fill="var(--card,#fff)"/>
+      <rect x="24" y="60" width="140" height="60" rx="10" fill="#eee" stroke="#ccc"/>
+      <text x="94" y="95" text-anchor="middle" font-size="14">Gateway</text>
+      <rect x="250" y="60" width="140" height="60" rx="10" fill="#eee" stroke="#ccc"/>
+      <text x="320" y="95" text-anchor="middle" font-size="14">Picker</text>
+      <rect x="476" y="60" width="140" height="60" rx="10" fill="#eee" stroke="#ccc"/>
+      <text x="546" y="95" text-anchor="middle" font-size="14">Server</text>
+      <path d="M170 90 H240" stroke="#999" stroke-width="2" marker-end="url(#a)"/>
+      <path d="M396 90 H466" stroke="#999" stroke-width="2"/>
+      <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="#999"/></marker></defs>
+    </svg>
+  </div>
+</section>
+
+<section>
+  <h2>Tall enough to split</h2>
+  <p>Lead sentence for the section.</p>
+  <div class="fig" style="height:420px">
+    <svg viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" role="img" style="height:400px">
+      <rect width="640" height="400" fill="#f4f4f4"/>
+      <text x="320" y="200" text-anchor="middle" font-size="18">Tall chart placeholder</text>
+    </svg>
+  </div>
+  <div class="bignums"><div class="bignum">128</div></div>
+  <p style="height:200px">Extra prose block that forces a split when kept with the figure budget.</p>
+  <p style="height:200px">Second tall prose block for the partitioner.</p>
+  <p style="height:200px">Third tall prose block for the partitioner.</p>
+</section>
+
+<section>
+  <h2>Service tiers</h2>
+  <table>
+    <thead><tr><th>Tier</th><th>Priority</th><th>Meaning</th></tr></thead>
+    <tbody>
+      <tr><td>Premium</td><td>100</td><td>Interactive traffic</td></tr>
+      <tr><td>Standard</td><td>0</td><td>Normal traffic</td></tr>
+      <tr><td>Batch</td><td>-10</td><td>Background work</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>Short closer</h2>
+  <p>Just a little text.</p>
+</section>
+</body>
+</html>

@@ -9,6 +9,7 @@ Skills for Claude Code and other agents that follow the
 | Skill | What it does |
 |-------|----------------|
 | [`explainer-animation`](./skills/explainer-animation/) | Structure-only prompts for Claude Design explainer animations. Content spine first, then layout / pacing / text — never colors or fonts. Your design system owns style. See [`references/principles.md`](./skills/explainer-animation/references/principles.md). |
+| [`html2deck`](./skills/html2deck/) | Turn a long HTML page into 16:9 PPTX/PDF slides by measuring rendered height, projecting a visual-first face, and splitting at safe boundaries — never crushing text or overflowing the slide. |
 | [`visual-style-laws`](./skills/visual-style-laws/) | Rules for headings, prose, tables, and theming on visual pages and decks. |
 
 ## How it works (`explainer-animation`)
@@ -23,9 +24,11 @@ Skills for Claude Code and other agents that follow the
 ```bash
 # one skill (references required; examples optional)
 cp -R skills/explainer-animation ~/.claude/skills/
+cp -R skills/html2deck ~/.claude/skills/
 
 # or into a project
 cp -R skills/explainer-animation .claude/skills/
+cp -R skills/html2deck .claude/skills/
 ```
 
 Keep `references/` next to `SKILL.md`.
